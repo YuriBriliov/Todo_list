@@ -1,0 +1,213 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f1f1f1;
+}
+
+.header {
+  height: 80px;
+  background-color: #ccc;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0, 0.30);
+  margin: 0;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+button {
+  outline: none;
+}
+
+
+h1{
+  margin: 0;
+  padding: 0;
+  padding-top: 25px;
+  font-family: Verdana, sans-serif;
+  color: #3d3d3d;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.container {
+  width: 870px;
+  margin-left: 3%;
+}
+
+.input_container{
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.input_container input {
+  width: 600px;
+  padding: 10px 0 10px 10px;
+  margin: 20px auto;
+  border: none;
+  font-size: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(129, 206, 255, 0.90);
+}
+
+.input_container button {
+  font-size: 16px;
+  border-radius: 10px;
+  padding: 13px 20px;
+  margin: 20px 20px;
+  border: 0;
+  background-color: #2BACFF;
+  text-transform: uppercase;
+  font-family: Verdana,sans-serif;
+  cursor: pointer;
+}
+
+.input_container button:active {
+  box-shadow: inset 0px 0px 10px 0px rgba(0, 120, 198, 0.60);
+  background-color: #64C2FE ;
+}
+
+h2 {
+  color: #3d3d3d;
+  font-family: Verdana,sans-serif;
+  font-size: 20px;
+}
+
+.btn_control {
+  padding: 10px 30px;
+  border: 0;
+  margin: 0 5px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.btn_rdy {
+  background-color: #40F597;
+  padding: 7px 17px;
+  border-radius: 10px;
+  font-family: Verdana,serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #3d3d3d;
+  cursor: pointer;
+  outline: none;
+  margin-left: 2%;
+}
+.btn_del {
+  background-color: #FF662C;
+  padding: 7px 17px;
+  border-radius: 10px;
+  font-family: Verdana,serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #3d3d3d;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn_edit {
+  background-color: rgb(247, 214, 33);
+  padding: 7px 17px;
+  border-radius: 10px;
+  font-family: Verdana,serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #3d3d3d;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn_chan {
+  background-color: rgb(247, 214, 33);
+  padding: 7px 17px;
+  border-radius: 10px;
+  font-family: Verdana,serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #3d3d3d;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn_rdy:active {
+  box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.40);
+}
+.btn_edit:active {
+  box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.40);
+}
+.btn_chan:active {
+  box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.40);
+}
+.btn_del:active {
+  box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.40);
+}
+
+
+/* /////////////////tasks */
+
+.tasks {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 500px;
+  margin-left: 3.5%;
+}
+
+.task_area {
+  margin: 0;
+  padding: 0;
+}
+
+.li_item {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.90);
+  width: 800px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0 20px 0;
+  list-style-type: none;
+  list-style-type: none;
+}
+
+.task_item_text {
+  margin: 10px 0;
+  width: 500px;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  font-family: Verdana, serif;
+  font-size: 13px;
+}
+
+.text_todo {
+  display: block;
+  margin: 10px 0 15px 2%;
+  font-size: 18px;
+  font-family: Verdana, sans-serif;
+  border: none;
+}
+
+.date {
+  font-size: 13px;
+  font-family: Verdana,sans-serif;
+  /* font-weight: 600; */
+  padding-left: 2%;
+  color: #343434;
+  border-bottom: 1px solid lightgrey;
+}
+
+.remove {
+  display: none;
+}
+
+.enter {
+  border: 1px solid lightblue;
+}
